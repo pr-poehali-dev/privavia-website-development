@@ -102,9 +102,7 @@ export default function Index() {
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-foreground to-secondary bg-clip-text text-transparent">PrivAvia</h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-12">
-              Летайте с комфортом премиум-класса в любую точку мира
-            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-12">Ваша история начинается с полета</p>
             <div className="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
               <Input 
                 placeholder="Откуда" 
