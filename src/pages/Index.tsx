@@ -101,8 +101,12 @@ export default function Index() {
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djItaDJ2LTJoLTJ6bTAgNGgtMnYyaDJ2LTJ6bS0yIDBoLTJ2Mmgydi0yem0wLTRoLTJ2Mmgydi0yem00LTRoLTJ2Mmgydi0yem0wIDRoLTJ2Mmgydi0yem0wIDRoLTJ2Mmgydi0yem0yLThoLTJ2Mmgydi0yem0wIDRoLTJ2Mmgydi0yem0wIDRoLTJ2Mmgydi0yem0wIDRoLTJ2Mmgydi0yem0yLTEyaC0ydjJoMnYtMnptMCA0aC0ydjJoMnYtMnptMCA0aC0ydjJoMnYtMnptMCA0aC0ydjJoMnYtMnoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-30"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-foreground to-secondary bg-clip-text text-transparent"></h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-12">Ваша история начинается с полета</p>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-foreground to-secondary bg-clip-text text-transparent">
+              Бизнес-авиация нового поколения
+            </h1>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-12">
+              Летайте с комфортом премиум-класса в любую точку мира
+            </p>
             <div className="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
               <Input 
                 placeholder="Откуда" 
